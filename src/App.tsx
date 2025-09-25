@@ -2,8 +2,8 @@ import { FC } from 'react';
 
 const App: FC = () => {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-      <h1>Hello, Tanzeel</h1>
+    <div className="flex justify-center items-center">
+      <div className="flex justify-center w-[500px] border font-bold">Hello, Tanzeel</div>
     </div>
   );
 };
